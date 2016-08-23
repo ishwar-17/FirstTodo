@@ -1,0 +1,65 @@
+.top-navbar{
+	border-radius:0px;
+	margin-bottom:0px;
+}
+.left-navbar{
+	margin-left:50px;
+}
+.left-navbar li a{
+	color:#fff;
+	font-size:17px;
+	font-family:Rosarivo;
+}
+.left-navbar li>a:hover{
+	background-color:#262626;
+	color:#cc5200;
+}
+.left-navbar li>a:focus{
+	background-color:#262626 !important;
+	color:#cc5200 !important;
+}
+.user-images{
+	width:100%;
+}
+.user-card{
+	box-shadow:0 0 1px 3px #ddd;
+	margin-top:25px;
+	padding-left:0;
+	padding-right:0;
+    
+}
+
+.text-center{
+	font-weight:bold;
+	color:brown;
+}
+.overlay{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 298px;
+    -webkit-transition:background-color 0.5s ease-out;
+    -moz-transition:background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+.overlay:hover{
+	background-color: rgba(0, 0, 0, 0.57);
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.overlay{
+		height:221px;
+	}
+	.left-navbar {
+    	margin-left: 0;
+    	text-align:center;
+	}
+	.left-navbar li{
+		width: 95%;
+	}
+}
+/*@media only screen and (min-width : 321px) {
+	.overlay{
+		height:470px;
+	}
+}*/

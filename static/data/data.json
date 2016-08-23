@@ -1,0 +1,49 @@
+[
+	{
+		"id":0,
+		"fname":"John",
+		"lname":"Doe",
+		"age":"24",
+		"place":"Austraila"
+	},
+
+	{
+		"id":1,
+		"fname":"Smith",
+		"lname":"Doe",
+		"age":"27",
+		"place":"England"
+	},
+
+	{
+		"id":2,
+		"fname":"John",
+		"lname":"Smith",
+		"age":"23",
+		"place":"New Zeland"
+	},
+
+	{
+		"id":3,
+		"fname":"Botha",
+		"lname":"Decoza",
+		"age":"22",
+		"place":"South Africa"
+	},
+
+	{
+		"id":4,
+		"fname":"John",
+		"lname":"Doe",
+		"age":"23",
+		"place":"Germany"
+	},
+
+	{
+		"id":5,
+		"fname":"John",
+		"lname":"Doe",
+		"age":"25",
+		"place":"Europe"
+	}
+]

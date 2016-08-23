@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+	<head>
+		<title>BirdHouse</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="static/css/w3.css"/>
+		<link rel="stylesheet" type="text/css" href="static/css/style.css"/>
+	</head>
+	<body>
+		<nav class = "navbar navbar-light w3-teal top-navbar" role = "navigation">
+   
+		    <div class = "navbar-header">
+		        <button type = "button" class = "navbar-toggle" 
+		         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+			        <span class = "sr-only">Toggle navigation</span>
+			        <span class = "icon-bar"></span>
+			        <span class = "icon-bar"></span>
+		         	<span class = "icon-bar"></span>
+		      	</button>
+				<a class = "navbar-brand" ui-sref="home">Brand Name</a>
+		    </div>
+		   
+		   	<div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+		      	<ul class ="nav navbar-nav left-navbar">
+		         	<li class="active"><a ui-sref="home">Home</a></li>
+		         	<li><a ui-sref="product">Product</a></li>
+		         	<li><a ui-sref="service">Service</a></li>
+					<li><a ui-sref="about">About Us</a></li>
+					<li><a ui-sref="contact">Contact Us</a></li>
+		      </ul>
+		   </div>
+		   
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12" ui-view></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="static/js/lib/angular.min.js"></script>
+		<script type="text/javascript" src="static/js/lib/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/lib/bootstrap.min.js"></script>
+		<script type="text/javascript" src="static/js/lib/angular-ui-router.min.js"></script>
+		<script type="text/javascript" src="static/js/lib/angular-animate.min.js"></script>
+		<script type="text/javascript" src="static/js/app.js"></script>
+		<script type="text/javascript" src="static/js/route.js"></script>
+		<script type="text/javascript" src="static/js/controller/homeCtrl.js"></script>
+		<script type="text/javascript" src="static/js/controller/productCtrl.js"></script>
+		<script type="text/javascript" src="static/js/controller/servicesCtrl.js"></script>
+		<script type="text/javascript" src="static/js/controller/aboutusCtrl.js"></script>
+		<script type="text/javascript" src="static/js/controller/contactusCtrl.js"></script>
+		<script type="text/javascript" src="static/js/controller/detailCtrl.js"></script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<div class="row" style="list-style:none;padding-left:0; margin:4px;">
+	<div class="col-md-3 col-xs-12 col-sm-6" ng-repeat="person in details">
+		<!-- <div class="row"> -->
+		<a ui-sref="detail({'id':person.id})">
+			<div class="col-md-12 user-card">
+			
+				<img ng-src="static/image/sparrow.jpg" class="user-images img-responsive">
+				<div class="overlay"></div>
+				<h5 class="text-center">{{person.fname  +  person.lname}}</h5>
+				<div class="row">
+					<div class="col-md-6 col-xs-6">
+						<p>{{person.age}}Yrs</p>
+					</div>
+					<div class="col-md-6 col-xs-6 text-right">
+						<p>{{person.place}}</p>
+					</div>
+				</div>
+			
+			</div>
+		</a>
+		<!-- </div> -->
+	</div>
+</div>
